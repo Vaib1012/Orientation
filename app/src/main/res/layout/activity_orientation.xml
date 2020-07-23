@@ -304,13 +304,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="137dp"
-        android:layout_y="8dp"
+        android:layout_y="738dp"
         android:background="#FFEA00"
         android:fontFamily="serif"
-        android:text=" State "
+        android:onClick="perform_action"
+        android:text=" State/UT "
         android:textColor="#000000"
         android:textStyle="bold"
-        android:onClick="perform_action"
         tools:ignore="OnClick" />
 
     <TextView

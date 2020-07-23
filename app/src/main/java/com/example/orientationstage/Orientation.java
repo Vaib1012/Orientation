@@ -123,9 +123,11 @@ public class Orientation extends AppCompatActivity {
                     final PopupWindow popupWindow = new PopupWindow(
                             popupView, WindowManager.LayoutParams.WRAP_CONTENT, WindowManager.LayoutParams.WRAP_CONTENT);
                     popupWindow.setOutsideTouchable(true);
-                    Button cancel = (Button)popupView.findViewById(R.id.cancel);
+                    Button cancel = popupView.findViewById(R.id.cancel);
                     TextView tv = popupView.findViewById(R.id.popuptv);
-                    tv.setText("Select a State");
+                    TextView tv2 = popupView.findViewById(R.id.popuptv2);
+                    tv.setText("Select a State/UT");
+                    tv2.setText("*UT stands for union territory");
                     final Spinner popupSpinner = (Spinner)popupView.findViewById(R.id.daysSpinner);
                     ArrayAdapter<String> adapter =
                             new ArrayAdapter<>(Orientation.this,
@@ -173,7 +175,9 @@ public class Orientation extends AppCompatActivity {
                         popupWindow.setOutsideTouchable(true);
                         Button cancel = (Button) popupView.findViewById(R.id.cancel);
                         TextView tv = popupView.findViewById(R.id.popuptv);
-                        tv.setText("Select a City");
+                        tv.setText("Select a City/UT");
+                        TextView tv2 = popupView.findViewById(R.id.popuptv2);
+                        tv2.setText("*UT stands for union territory");
                         final Spinner popupSpinner = (Spinner) popupView.findViewById(R.id.daysSpinner);
                         ArrayAdapter<String> adapter =
                                 new ArrayAdapter<>(Orientation.this,
