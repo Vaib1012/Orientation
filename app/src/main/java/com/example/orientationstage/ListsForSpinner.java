@@ -40,17 +40,14 @@ class ListsForSpinner {
                         "Nagaon", "Sibsagar", "Silchar", "Tezpur", "Tinsukia"};
                     break;
 
-                case "Bihar": cities = new String[]{"Ara", "Baruni", "Begusarai", "Bettiah", "Bhagalpur", "Bihar Sharif",
-                        "Bodh Gaya", "Buxar", "Chapra", "Darbhanga","Dehri", "Dinapur Nizamat", "Gaya", "Hajipur", "Jamalpur",
-                        "Katihar", "Madhubani", "Motihari", "Munger", "Muzaffarpur", "Patna", "Purnia", "Pusa", "Saharsa",
-                        "Samastipur", "Sasaram", "Sitamarhi", "Siwan",};
+                case "Bihar": cities = new String[]{"Ara", "Baruni", };
                     break;
 
                 case "Chandigarh": cities = new String[]{"Chandigarh"};
                     break;
 
                 case "Chattisgarh": cities = new String[]{"Balod", "Baloda Bazar", "Balrampur", "Bastar", "Bemetara", "Bijapur", "Bilaspur", "Dantewada (South Bastar)",
-                       "Dhamtari", "Durg", "Gariyaband", "Janjgir-Champa", "Jashpur", "Kabirdham (Kawardha)", "Kanker (North Bastar)", "Kondagaon", "Korba", "Korea (Koriya)", 
+                       "Dhamtari", "Durg", "Gariyaband", "Janjgir-Champa", "Jashpur", "Kabirdham (Kawardha)", "Kanker (North Bastar)", "Kondagaon", "Korba", "Korea (Koriya)",
                      "Mahasamund", "Mungeli", "Narayanpur", "Raigarh", "Raipur", "Rajnandgaon", "Sukma", "Surajpur", "Surguja"};
                     break;
 
